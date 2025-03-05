@@ -7,13 +7,11 @@ import ViewAllJobs from './components/viewalljobs.jsx';
 const App = () => {
   return (
     <>
-      <body>
-        <Navbar />
-        <Hero />
-        <HomeCards />
-        <JobListings />
-        <ViewAllJobs />
-      </body>
+      <Navbar />
+      <Hero />
+      <HomeCards />
+      <JobListings />
+      <ViewAllJobs />
     </>
   );
 };
